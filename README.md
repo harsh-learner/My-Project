@@ -1,5 +1,4 @@
-# My-Project
-**Project:** Jenkins CI/CD pipeline with GitHub webhook integration for Deploying Docker application on EC2 instances using the declarative pipeline.
+# Project: Jenkins CI/CD pipeline with GitHub webhook integration for Deploying Docker application on EC2 instances using the declarative pipeline.
 
 # Overview:
 This project demonstrates the setup of an automated CI/CD pipeline for deploying a web application(django-app) on AWS EC2 instances using Jenkins and Docker. It includes GitHub webhook integration to trigger pipeline runs on every code commit, ensuring continuous integration and delivery. 
@@ -37,7 +36,13 @@ Follow the steps below to set up and run the project:
 ![Project2](https://github.com/harsh-learner/My-Project/assets/141729189/09614fd5-ddd7-4943-985c-dbcf2b45bcdb)
 
 5. Trigger pipeline runs automatically upon code commits.
+
+   with-webhooks
+   ![declarative without checkout](https://github.com/harsh-learner/My-Project/assets/141729189/bb6e99c6-fd2e-4507-8510-1c79405c5195)
+
+with declarative pipeline
   ![declarative checkout](https://github.com/harsh-learner/My-Project/assets/141729189/7e402e66-8d59-4f74-849a-7e94b54ebd64)
 
+
    
-9. Monitor and enjoy automated deployments and live application updates.
+6. Monitor and enjoy automated deployments and live application updates.
